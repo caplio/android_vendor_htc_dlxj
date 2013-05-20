@@ -1,0 +1,8 @@
+﻿Project: DLX_WLJ_JB_45
+SKU: KDDI ROM
+ROM Build ID: 466016
+Build ID: 466018; SKU: KDDI RED00 (Red); CID: ; MNS: RED00
+Build ID: 466019; SKU: KDDI WHT00 (White); CID: ; MNS: WHT00
+Build ID: 466020; SKU: KDDI BLK00 (Black); CID: ; MNS: BLK00
+Build ID: 466017; SKU: KDDI ROM default; CID: default; MNS: default
+Datetime: 2012/12/18 23:23:06

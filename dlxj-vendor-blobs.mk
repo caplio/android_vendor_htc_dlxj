@@ -250,4 +250,10 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlxj/proprietary/lib/libobex.so:system/lib/libobex.so \
   vendor/htc/dlxj/proprietary/etc/kddi/nfc/common.cfg:system/etc/kddi/nfc/common.cfg \
   vendor/htc/dlxj/proprietary/etc/snfc/auto_polling.cfg:system/etc/snfc/auto_polling.cfg \
-  vendor/htc/dlxj/proprietary/etc/snfc/rf.cfg:system/etc/snfc/rf.cfg
+  vendor/htc/dlxj/proprietary/lib/libnetlink.so:system/lib/libnetlink.so \
+  vendor/htc/dlxj/proprietary/lib/libnetutils.so:system/lib/libnetutils.so \
+  vendor/htc/dlxj/proprietary/customize/cust_cdmaconn.dat:system/customize/cust_cdmaconn.dat \
+  vendor/htc/dlxj/proprietary/fonts/MTLmr3m.ttf:system/fonts/MTLmr3m.ttf \
+  vendor/htc/dlxj/proprietary/fonts/MTLc3m.ttf:system/fonts/MTLc3m.ttf \
+  vendor/htc/dlxj/proprietary/etc/snfc/rf.cfg:system/etc/snfc/rf.cfg \
+  vendor/htc/dlxj/proprietary/bin/htc_ebdlogd:system/bin/htc_ebdlogd

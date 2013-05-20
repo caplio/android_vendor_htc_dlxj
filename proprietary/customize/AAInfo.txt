@@ -1,0 +1,6 @@
+TaskID : 307409
+Project : DLX_WLJ_JB_45
+SKU : KDDI JP[970]
+ROM Ver : 1.29.970.1
+Customization Id : 466016
+RCMS Id : 175

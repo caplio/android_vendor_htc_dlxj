@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<customization_form>
+  <category name="system">
+    <module name="locale">
+      <function>
+        <set name="single">
+          <item name="total_list">en_JP;en_US;ja_JP;</item>
+          <item type="boolean" name="en_JP">yes</item>
+          <item type="boolean" name="en_US">yes</item>
+          <item type="boolean" name="ja_JP">yes</item>
+        </set>
+      </function>
+    </module>
+    <module name="Settings">
+      <function name="screen_timeout">
+        <set name="plenty">
+          <item name="value1">15000</item>
+          <item name="value2">30000</item>
+          <item name="value3">45000</item>
+          <item name="value4">60000</item>
+          <item name="value5">120000</item>
+          <item name="value6">600000</item>
+          <item name="value7">-1</item>
+        </set>
+      </function>
+    </module>
+    <module name="defaultTime1224">
+      <function>
+        <set name="single">
+          <item name="default">24</item>
+        </set>
+      </function>
+    </module>
+    <module name="deviceData">
+      <function>
+        <set name="single">
+          <item name="device_name">HTL21</item>
+        </set>
+      </function>
+    </module>
+    <module name="deviceData1">
+      <function>
+        <set name="single">
+          <item name="sw_number">NA</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="application">
+    <module name="Crash_Report">
+      <function name="setting">
+        <set name="single">
+          <item name="turn_off_report" type="boolean">no</item>
+          <item name="turn_off_application_log" type="boolean">yes</item>
+        </set>
+      </function>
+    </module>
+    <module name="Wifihotspot">
+      <function name="usermanagement">
+        <set name="plenty" max="15">
+          <item name="max_connection">8</item>
+          <item name="connection_array">8</item>
+        </set>
+      </function>
+    </module>
+    <module name="Lockscreen">
+      <function name="idlescreen">
+        <set name="single" max="1">
+          <item name="component">com.htc.productivitylockscreen/com.htc.productivitylockscreen.ProductivityService</item>
+        </set>
+      </function>
+      <function name="shortcut_visibility">
+        <set name="single" max="1">
+          <item name="visibility">1</item>
+        </set>
+      </function>
+    </module>
+    <module name="HotspotName">
+      <function>
+        <set name="single">
+          <item name="device_name">HTC J butterfly</item>
+        </set>
+      </function>
+    </module>
+    <module name="OOBE">
+      <function name="Step_Config">
+        <set name="single">
+          <item name="Set_Language" type="boolean">yes</item>
+          <item name="Internet_Connection" type="boolean">yes</item>
+          <item name="Sync_Data" type="boolean">yes</item>
+        </set>
+      </function>
+      <function name="Sync_Data_Config">
+        <set name="single">
+          <item name="Default" type="boolean">yes</item>
+        </set>
+      </function>
+      <function name="Wifi_Connectivity">
+        <set name="single">
+          <item name="Default" type="boolean">yes</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <BootConfiguration>
+    <BootAnimation animation="/system/customize/resource/KDDI_bootup.zip" />
+  </BootConfiguration>
+  <ShutdownConfiguration>
+    <ShutdownAnimation image_png="/system/customize/resource/hTC_downanimation.zip" image="" fps="10" />
+  </ShutdownConfiguration>
+  <category name="Settings">
+    <module name="properties">
+      <function>
+        <set name="single">
+          <item name="support_special_encryption">true</item>
+        </set>
+      </function>
+      <function>
+        <set name="single">
+          <item name="market_name">HTL21</item>
+        </set>
+      </function>
+      <function>
+        <set name="single">
+          <!--regulation.png-->
+          <item name="support_regulatory">true</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="SettingsProvider">
+    <module name="res">
+      <function name="values">
+        <set name="single">
+          <item name="def_2g_on">12</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="framework">
+    <module name="ShareVia">
+      <function name="settings">
+        <set name="single">
+          <item name="1">com.htc.notes</item>
+          <item name="2">com.htc.cloudstorage.skydrive</item>
+          <item name="3">com.dropbox.android</item>
+          <item name="4">com.htc.android.mail</item>
+          <item name="5">com.android.mms</item>
+          <item name="6">com.facebook.katana</item>
+        </set>
+      </function>
+    </module>
+  </category>
+</customization_form>

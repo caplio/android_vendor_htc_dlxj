@@ -1,0 +1,1701 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<customization_form>
+  <category name="system">
+    <module name="defaultLocale">
+      <function>
+        <set name="single">
+          <item name="auto_detect">false</item>
+          <item name="defeault">ja_JP</item>
+        </set>
+      </function>
+    </module>
+    <module name="defaultWallpaper">
+      <function>
+        <set name="single">
+          <item name="defeault">scene_wallpaper_htc_default.jpg</item>
+        </set>
+      </function>
+    </module>
+    <module name="defaultTimeFormatSetting">
+      <function>
+        <set name="single">
+          <item name="default">yyyy MMM dd（EE）</item>
+        </set>
+      </function>
+    </module>
+    <module name="defaultTimeFormatSettingShort">
+      <function>
+        <set name="single">
+          <item name="default">MMM dd（EE）</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="application">
+    <module name="Settings">
+      <function name="resource_path">
+        <set name="single" max="1">
+          <item name="path">/system/customize/resource/</item>
+        </set>
+      </function>
+    </module>
+    <module name="Launcher">
+      <function name="1_app_widgets">
+        <set name="plenty" max="19">
+          <!--c8e29732-9dad-4be6-8155-7fba0ecf7c91-->
+          <item name="package_name">com.kddi.ux.mediacommunication</item>
+          <item name="app_widget_provider">com.kddi.ux.mediacommunication.aw.PhotoWidgetProvider</item>
+          <item name="screen">5</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">2</item>
+          <item name="span_x">4</item>
+          <item name="span_y">2</item>
+        </set>
+        <set name="plenty" max="19">
+          <!--ef18757d-d16b-4d4a-a21c-2327d1841c13-->
+          <item name="package_name">com.kddi.ux.location</item>
+          <item name="app_widget_provider">com.kddi.ux.location.aw.SpotWidgetProvider4x1</item>
+          <item name="screen">5</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">1</item>
+          <item name="span_x">4</item>
+          <item name="span_y">1</item>
+        </set>
+        <set name="plenty" max="19">
+          <!--726f9803-98b0-43eb-ad58-876a61f4fbf7-->
+          <item name="package_name">com.kddi.ux.news</item>
+          <item name="app_widget_provider">com.kddi.ux.news.NewsWidgetProvider4x1</item>
+          <item name="screen">5</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">1</item>
+        </set>
+        <set name="plenty" max="19">
+          <!--fa5a3816-6c93-4d40-a205-8636bffc2c7b-->
+          <item name="package_name">com.kddi.ux.station</item>
+          <item name="app_widget_provider">com.kddi.ux.station.StationWidgetProvider</item>
+          <item name="screen">4</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">2</item>
+        </set>
+        <set name="plenty" max="19">
+          <!--3cc219d2-899f-4313-a775-f5520a61697f-->
+          <item name="package_name">com.google.android.googlequicksearchbox</item>
+          <item name="app_widget_provider">com.google.android.googlequicksearchbox.SearchWidgetProvider</item>
+          <item name="screen">3</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">1</item>
+        </set>
+        <set name="plenty" max="19">
+          <!--771c8c29-1a1c-46e6-990a-990c328302ca-->
+          <item name="package_name">com.kddi.android.au_wifi_connect</item>
+          <item name="app_widget_provider">jp.co.netvision.WifiConnect.WifiConnectWidget</item>
+          <item name="screen">1</item>
+          <item name="cell_x">2</item>
+          <item name="cell_y">3</item>
+          <item name="span_x">2</item>
+          <item name="span_y">1</item>
+        </set>
+      </function>
+      <function name="2_app_widgets">
+        <set name="plenty" max="19">
+          <!--44716185-d051-4218-be5a-744fc68cda5f-->
+          <item name="package_name">com.google.android.googlequicksearchbox</item>
+          <item name="app_widget_provider">com.google.android.googlequicksearchbox.SearchWidgetProvider</item>
+          <item name="screen">3</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">1</item>
+        </set>
+      </function>
+      <function name="applications_hide">
+        <set name="plenty" max="7">
+          <item name="package">com.htc.wifidisplay</item>
+          <item name="class">com.htc.wifidisplay.MainActivity</item>
+          <item name="flags">0</item>
+        </set>
+      </function>
+      <function name="3_fx_widgets">
+        <set name="plenty">
+          <!--154219d2-a8de-461c-bd9a-e224eced35d2-->
+          <item name="package_name">com.htc.htccalendarwidgets</item>
+          <item name="widget_name">com.htc.htccalendarwidgets.AgendaListWidget</item>
+          <item name="provider_name">com.htc.htccalendarwidgets.WidgetReceiver</item>
+          <item name="screen">0</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">4</item>
+        </set>
+        <set name="plenty">
+          <!--951ae832-e372-4038-b3d1-d0d539c7608d-->
+          <item name="package_name">com.htc.htcmsgwidgets3d</item>
+          <item name="widget_name">com.htc.htcmsgwidgets3d.Messages_card_4x4</item>
+          <item name="provider_name">com.htc.htcmsgwidgets.MsgWidgetProvider</item>
+          <item name="screen">4</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">4</item>
+        </set>
+        <set name="plenty">
+          <!--78d35167-cc81-4417-a842-369455faf382-->
+          <item name="package_name">com.htc.clock3dwidget</item>
+          <item name="widget_name">com.htc.clock3dwidget.socialclock.SocialClockWidgetView</item>
+          <item name="provider_name">com.htc.clock3dwidget.ClockWidgetProvider</item>
+          <item name="screen">2</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">2</item>
+        </set>
+        <set name="plenty">
+          <!--1c8a8d55-4612-4c30-8f04-97f2acb12d9b-->
+          <item name="package_name">com.htc.FriendStream3DWidget</item>
+          <item name="widget_name">com.htc.FriendStream3DWidget.FriendStreamLargeWidget</item>
+          <item name="provider_name">com.htc.FriendStream3DWidget.FriendStreamWidgetProvider</item>
+          <item name="screen">1</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">4</item>
+        </set>
+        <set name="plenty">
+          <!--8f739e02-37e3-4f34-abf4-ebce94572f62-->
+          <item name="package_name">com.htc.htccontactwidgets_3d_fusion</item>
+          <item name="widget_name">com.htc.htccontactwidgets_3d_fusion.ContactWidgetList</item>
+          <item name="provider_name">com.htc.htccontactwidgets_3d_fusion.WidgetReceiver</item>
+          <item name="screen">3</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">4</item>
+          <item name="property.group_name">Favorite_8656150684447252476_6727701920173350445</item>
+          <item name="property.sence_path">Port/people_listview_full.m10</item>
+          <item name="property.item_path">Port/people_listitem.m10</item>
+        </set>
+      </function>
+      <function name="5_fx_widgets">
+        <set name="plenty">
+          <!--06e9bb77-860e-422e-8e93-66ae134389c8-->
+          <item name="package_name">com.htc.fusion.htcbookmarkwidget</item>
+          <item name="widget_name">com.htc.fusion.htcbookmarkwidget.GridWidgetView</item>
+          <item name="provider_name">com.htc.fusion.htcbookmarkwidget.BookmarkWidgetProvider</item>
+          <item name="screen">4</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">4</item>
+        </set>
+        <set name="plenty">
+          <!--9714941a-6697-482c-84e6-437eb16fa738-->
+          <item name="package_name">com.htc.MusicWidget3D</item>
+          <item name="widget_name">com.htc.MusicWidget3D.MusicWidget3D_4x4</item>
+          <item name="provider_name">com.htc.MusicWidget3D.MusicWidget3DProvider</item>
+          <item name="screen">3</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">4</item>
+        </set>
+        <set name="plenty">
+          <!--cb4ba290-af4c-448d-a570-202a8299d9ea-->
+          <item name="package_name">com.htc.FriendStream3DWidget</item>
+          <item name="widget_name">com.htc.FriendStream3DWidget.FriendStreamLargeWidget</item>
+          <item name="provider_name">com.htc.FriendStream3DWidget.FriendStreamWidgetProvider</item>
+          <item name="screen">0</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">4</item>
+        </set>
+        <set name="plenty">
+          <!--0f8e7531-721d-4e90-88e8-89a5d051d41a-->
+          <item name="package_name">com.htc.photowidget3d</item>
+          <item name="widget_name">com.htc.photowidget3d.album.PhotoAlbumWidget3D</item>
+          <item name="provider_name">com.htc.photowidget3d.album.PhotoAlbumWidgetPorvider</item>
+          <item name="screen">1</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">4</item>
+        </set>
+        <set name="plenty">
+          <!--6e54f64e-2f67-4920-9303-f054955fec9b-->
+          <item name="package_name">com.htc.clock3dwidget</item>
+          <item name="widget_name">com.htc.clock3dwidget.ClockCosmos</item>
+          <item name="provider_name">com.htc.clock3dwidget.ClockWidgetProvider</item>
+          <item name="screen">2</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">3</item>
+        </set>
+      </function>
+      <function name="4_fx_widgets">
+        <set name="plenty">
+          <!--8f2814d8-a099-4416-af0c-d075ec13981d-->
+          <item name="package_name">com.htc.fusion.htcbookmarkwidget</item>
+          <item name="widget_name">com.htc.fusion.htcbookmarkwidget.GridWidgetView</item>
+          <item name="provider_name">com.htc.fusion.htcbookmarkwidget.BookmarkWidgetProvider</item>
+          <item name="screen">4</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">4</item>
+        </set>
+        <set name="plenty">
+          <!--f6c2df4b-fb25-4c01-8a95-1994512e1325-->
+          <item name="package_name">com.htc.htcrichnoteswidget3d</item>
+          <item name="widget_name">com.htc.htcrichnoteswidget3d.NotesWidgetPageView</item>
+          <item name="provider_name">com.htc.htcrichnoteswidget3d.NotesWidgetProvider</item>
+          <item name="screen">0</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">4</item>
+        </set>
+        <set name="plenty">
+          <!--0fd9070a-6b10-4c71-a13d-fe9f2c1e17a0-->
+          <item name="package_name">com.htc.htcmailwidgets</item>
+          <item name="widget_name">com.htc.htcmailwidgets.MailSummaryWidget</item>
+          <item name="provider_name">com.htc.htcmailwidgets.WidgetReceiver</item>
+          <item name="screen">1</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">4</item>
+        </set>
+        <set name="plenty">
+          <!--969c637c-af18-4d0a-891a-0b2c90d9f5f7-->
+          <item name="package_name">com.htc.clock3dwidget</item>
+          <item name="widget_name">com.htc.clock3dwidget.ClockDual</item>
+          <item name="provider_name">com.htc.clock3dwidget.ClockWidgetProvider</item>
+          <item name="screen">2</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">2</item>
+        </set>
+        <set name="plenty">
+          <!--3064b9fd-76e5-4a30-97c0-3e331d8ac88e-->
+          <item name="package_name">com.htc.htccalendarwidgets</item>
+          <item name="widget_name">com.htc.htccalendarwidgets.AgendaWidget</item>
+          <item name="provider_name">com.htc.htccalendarwidgets.WidgetReceiver</item>
+          <item name="screen">2</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">2</item>
+          <item name="span_x">4</item>
+          <item name="span_y">1</item>
+        </set>
+        <set name="plenty">
+          <!--2c03c469-43e8-4a74-acc7-057f5c50d4ab-->
+          <item name="package_name">com.htc.Task3DWidget</item>
+          <item name="widget_name">com.htc.Task3DWidget.Task3DWidget4x4</item>
+          <item name="provider_name">com.htc.Task3DWidget.WidgetProvider</item>
+          <item name="screen">3</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">4</item>
+        </set>
+      </function>
+      <function name="1_fx_widgets">
+        <set name="plenty">
+          <!--ae1f36f2-724d-4944-8a6d-86506223aeff-->
+          <item name="package_name">com.htc.clock3dwidget</item>
+          <item name="widget_name">com.htc.clock3dwidget.ClockWeather_Transparent</item>
+          <item name="provider_name">com.htc.clock3dwidget.ClockWidgetProvider</item>
+          <item name="screen">3</item>
+          <item name="cell_x">1</item>
+          <item name="cell_y">2</item>
+          <item name="span_x">3</item>
+          <item name="span_y">2</item>
+        </set>
+        <set name="plenty">
+          <!--ad62fda1-7aca-429b-866f-3f9595cecfe7-->
+          <item name="package_name">com.htc.appandshortcutwidget</item>
+          <item name="widget_name">com.htc.appandshortcutwidget.SC3DWidgetUI</item>
+          <item name="provider_name">com.htc.appandshortcutwidget.AppAndShortcutWidgetProvider</item>
+          <item name="screen">3</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">1</item>
+          <item name="span_x">1</item>
+          <item name="span_y">3</item>
+          <item name="property.com.htc.QLWidget.shortCut1.pkg">com.kddi.android.email</item>
+          <item name="property.com.htc.QLWidget.shortCut1.cls">com.kddi.android.email.system.AppStarter</item>
+          <item name="property.com.htc.QLWidget.shortCut2.pkg">com.android.mms</item>
+          <item name="property.com.htc.QLWidget.shortCut2.cls">com.android.mms.ui.ConversationList</item>
+          <item name="property.com.htc.QLWidget.shortCut3.pkg">com.htc.music</item>
+          <item name="property.com.htc.QLWidget.shortCut3.cls">com.htc.music.browserlayer.MusicBrowserTabActivity</item>
+          <item name="property.com.htc.QLWidget.shortCut4.pkg">com.android.vending</item>
+          <item name="property.com.htc.QLWidget.shortCut4.cls">com.android.vending.AssetBrowserActivity</item>
+        </set>
+        <set name="plenty">
+          <!--87b1aa4b-b970-4cf0-b1e9-dd9c1289064b-->
+          <item name="package_name">com.htc.htcsettingwidgets</item>
+          <item name="widget_name">com.htc.htcsettingwidgets.BTWidget</item>
+          <item name="provider_name">com.htc.htcsettingwidgets.BTWidget</item>
+          <item name="screen">1</item>
+          <item name="cell_x">3</item>
+          <item name="cell_y">2</item>
+          <item name="span_x">1</item>
+          <item name="span_y">1</item>
+        </set>
+        <set name="plenty">
+          <!--30628e8c-b3de-48f5-ac9b-0b94b94fa462-->
+          <item name="package_name">com.htc.htcsettingwidgets</item>
+          <item name="widget_name">com.htc.htcsettingwidgets.GPSWidget</item>
+          <item name="provider_name">com.htc.htcsettingwidgets.GPSWidgetcom</item>
+          <item name="screen">1</item>
+          <item name="cell_x">3</item>
+          <item name="cell_y">1</item>
+          <item name="span_x">1</item>
+          <item name="span_y">1</item>
+        </set>
+        <set name="plenty">
+          <!--5da1a56a-ac8f-4f73-99a8-d78578a19354-->
+          <item name="package_name">com.htc.autorotatewidget</item>
+          <item name="widget_name">com.htc.autorotatewidget.AutoRotateWidget</item>
+          <item name="provider_name">com.htc.autorotatewidget.AutoRotateWidgetProvider</item>
+          <item name="screen">1</item>
+          <item name="cell_x">3</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">1</item>
+          <item name="span_y">1</item>
+        </set>
+        <set name="plenty">
+          <!--b7f88881-43c3-4a29-96b3-f4034d273a18-->
+          <item name="package_name">com.htc.htcsettingwidgets</item>
+          <item name="widget_name">com.htc.htcsettingwidgets.HotspotWidget</item>
+          <item name="provider_name">com.htc.htcsettingwidgets.HotspotWidget</item>
+          <item name="screen">1</item>
+          <item name="cell_x">2</item>
+          <item name="cell_y">1</item>
+          <item name="span_x">1</item>
+          <item name="span_y">1</item>
+        </set>
+        <set name="plenty">
+          <!--d70b09d4-477e-4c7d-a92a-5263dcfedb51-->
+          <item name="package_name">com.htc.htcsettingwidgets</item>
+          <item name="widget_name">com.htc.htcsettingwidgets.WiFiWidget</item>
+          <item name="provider_name">com.htc.htcsettingwidgets. WiFiWidget</item>
+          <item name="screen">1</item>
+          <item name="cell_x">2</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">1</item>
+          <item name="span_y">1</item>
+        </set>
+        <set name="plenty">
+          <!--642f8f1f-b6da-41d3-95c6-a40d44f67c53-->
+          <item name="package_name">com.htc.photowidget3d</item>
+          <item name="widget_name">com.htc.photowidget3d.grid.PhotoGridWidget3D</item>
+          <item name="provider_name">com.htc.photowidget3d.album.PhotoAlbumWidgetProvider</item>
+          <item name="screen">2</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">4</item>
+        </set>
+        <set name="plenty">
+          <!--ec651fc9-760a-4f1e-9230-b1f43ef798c4-->
+          <item name="package_name">com.htc.htccalendarwidgets</item>
+          <item name="widget_name">com.htc.htccalendarwidgets.MonthViewWidget</item>
+          <item name="provider_name">com.htc.htccalendarwidgets.WidgetReceiver</item>
+          <item name="screen">0</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">4</item>
+        </set>
+      </function>
+      <function name="2_fx_widgets">
+        <set name="plenty">
+          <!--c94fa3fd-a822-4d44-94d8-a0cf36c2ab91-->
+          <item name="package_name">com.htc.htccontactwidgets_3d_fusion</item>
+          <item name="widget_name">com.htc.htccontactwidgets_3d_fusion.ContactWidgetMatrix</item>
+          <item name="provider_name">com.htc.htccontactwidgets_3d_fusion.WidgetReceiver</item>
+          <item name="screen">3</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">1</item>
+          <item name="span_x">4</item>
+          <item name="span_y">3</item>
+          <item name="property.group_name">Favorite_8656150684447252476_6727701920173350445</item>
+          <item name="property.sence_path">Port/people_gridview_full.m10</item>
+          <item name="property.item_path">Port/people_griditem.m10</item>
+        </set>
+        <set name="plenty">
+          <!--36b1e937-39b3-4bf5-8fd0-8be8dc0c9b12-->
+          <item name="package_name">com.htc.photowidget3d</item>
+          <item name="widget_name">com.htc.photowidget3d.album.PhotoAlbumWidget3D</item>
+          <item name="provider_name">com.htc.photowidget3d.album.PhotoAlbumWidgetPorvider</item>
+          <item name="screen">0</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">4</item>
+        </set>
+        <set name="plenty">
+          <!--83e77b6c-1ef1-4799-965e-2626c8046c37-->
+          <item name="package_name">com.htc.MusicWidget3D</item>
+          <item name="widget_name">com.htc.MusicWidget3D.MusicWidget3D_4x4</item>
+          <item name="provider_name">com.htc.MusicWidget3D.MusicWidget3DProvider</item>
+          <item name="screen">1</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">4</item>
+        </set>
+        <set name="plenty">
+          <!--8c9d9b36-dede-4cf7-a12d-4bba3f689c2f-->
+          <item name="package_name">com.htc.clock3dwidget</item>
+          <item name="widget_name">com.htc.clock3dwidget.weatherclock.WeatherClockWidgetView</item>
+          <item name="provider_name">com.htc.clock3dwidget.ClockWidgetProvider</item>
+          <item name="screen">2</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">2</item>
+        </set>
+        <set name="plenty">
+          <!--476d380a-8a5a-4a28-9d3e-80ebabee5ba9-->
+          <item name="package_name">com.htc.htccalendarwidgets</item>
+          <item name="widget_name">com.htc.htccalendarwidgets.MonthViewWidget</item>
+          <item name="provider_name">com.htc.htccalendarwidgets.WidgetReceiver</item>
+          <item name="screen">4</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">4</item>
+        </set>
+      </function>
+      <function name="6_fx_widgets">
+        <set name="plenty">
+          <!--16eb3aff-8c47-41ec-8e8c-30864298313e-->
+          <item name="package_name">com.htc.widget3d.weather</item>
+          <item name="widget_name">com.htc.widget3d.weather.Weather4x4Widget</item>
+          <item name="provider_name">com.htc.widget3d.weather.WeatherWidgetProvider</item>
+          <item name="screen">0</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">4</item>
+        </set>
+        <set name="plenty">
+          <!--77271a51-816c-4f85-a97b-3c341907c2a7-->
+          <item name="package_name">com.htc.clock3dwidget</item>
+          <item name="widget_name">com.htc.clock3dwidget.Clock1x1</item>
+          <item name="provider_name">com.htc.clock3dwidget.ClockWidgetProvider</item>
+          <item name="screen">2</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">1</item>
+          <item name="span_y">1</item>
+          <item name="property.code_">ASI|JP|JA041|TOKYO</item>
+        </set>
+        <set name="plenty">
+          <!--8d72ba81-ac5b-4960-b73b-943ed1bf449d-->
+          <item name="package_name">com.htc.clock3dwidget</item>
+          <item name="widget_name">com.htc.clock3dwidget.Clock1x1</item>
+          <item name="provider_name">com.htc.clock3dwidget.ClockWidgetProvider</item>
+          <item name="screen">2</item>
+          <item name="cell_x">1</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">1</item>
+          <item name="span_y">1</item>
+          <item name="property.code_">ASI|TW|TW018|TAIPEI</item>
+        </set>
+        <set name="plenty">
+          <!--48cd25cc-99b8-4d7b-82f5-8c83d7c4637b-->
+          <item name="package_name">com.htc.clock3dwidget</item>
+          <item name="widget_name">com.htc.clock3dwidget.Clock1x1</item>
+          <item name="provider_name">com.htc.clock3dwidget.ClockWidgetProvider</item>
+          <item name="screen">2</item>
+          <item name="cell_x">2</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">1</item>
+          <item name="span_y">1</item>
+          <item name="property.code_">EUR|ES|SP008|BARCELONA</item>
+        </set>
+        <set name="plenty">
+          <!--1440d9f0-0c6e-43d1-91ba-eb943dd4fc59-->
+          <item name="package_name">com.htc.clock3dwidget</item>
+          <item name="widget_name">com.htc.clock3dwidget.Clock1x1</item>
+          <item name="provider_name">com.htc.clock3dwidget.ClockWidgetProvider</item>
+          <item name="screen">2</item>
+          <item name="cell_x">3</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">1</item>
+          <item name="span_y">1</item>
+          <item name="property.code_">EUR|UK|UK124|LONDON</item>
+        </set>
+        <set name="plenty">
+          <!--385594e0-4b46-48a6-8289-65623f2343d9-->
+          <item name="package_name">com.htc.htccalendarwidgets</item>
+          <item name="widget_name">com.htc.htccalendarwidgets.MonthViewWidget</item>
+          <item name="provider_name">com.htc.htccalendarwidgets.WidgetReceiver</item>
+          <item name="screen">4</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">4</item>
+        </set>
+        <set name="plenty">
+          <!--dcee9370-6820-42bc-95ee-b10446ec4461-->
+          <item name="package_name">com.htc.MusicWidget3D</item>
+          <item name="widget_name">com.htc.MusicWidget3D.MusicWidget3D_4x2</item>
+          <item name="provider_name">com.htc.MusicWidget3D.MusicWidget3DProvider</item>
+          <item name="screen">3</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">2</item>
+        </set>
+        <set name="plenty">
+          <!--bc1ef6a9-aee0-4b67-a8ee-7eff2e8370fd-->
+          <item name="package_name">com.htc.photowidget3d</item>
+          <item name="widget_name">com.htc.photowidget3d.grid.PhotoGridWidget3D</item>
+          <item name="provider_name">com.htc.photowidget3d.album.PhotoAlbumWidgetProvider</item>
+          <item name="screen">1</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">4</item>
+        </set>
+        <set name="plenty">
+          <!--1b42fa28-ceba-4ef7-b374-4be411f3cdab-->
+          <item name="package_name">com.htc.htcmsgwidgets3d</item>
+          <item name="widget_name">com.htc.htcmsgwidgets3d.Messages_summary_4x4</item>
+          <item name="provider_name">com.htc.htcmsgwidgets3d.MsgWidgetReceiver</item>
+          <item name="screen">3</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">2</item>
+          <item name="span_x">4</item>
+          <item name="span_y">2</item>
+        </set>
+      </function>
+      <function name="operator_tab_0">
+        <set name="plenty">
+          <item name="type">tab</item>
+          <item name="id">OPERATOR_TAB</item>
+          <item name="init_order">1</item>
+          <item name="init_place">TAB</item>
+          <item name="rest_icon">/system/customize/resource/au92x92.jpg</item>
+          <item name="on_icon">/system/customize/resource/au92x92.jpg</item>
+        </set>
+        <set name="plenty">
+          <item name="type">label</item>
+          <item name="default">(KDDI)</item>
+        </set>
+        <set name="plenty">
+          <item name="type">app</item>
+          <item name="package">com.threelm.dm.app.kddi</item>
+          <item name="class">com.threelm.dm.app.kddi.DeviceManager</item>
+          <item name="priority">1</item>
+        </set>
+        <set name="plenty">
+          <item name="type">app</item>
+          <item name="package">com.kddi.android.UtaPass</item>
+          <item name="class">com.kddi.android.UtaPass.HomeActivity</item>
+          <item name="priority">2</item>
+        </set>
+        <set name="plenty">
+          <item name="type">app</item>
+          <item name="package">com.felicanetworks.mfm</item>
+          <item name="class">com.felicanetworks.mfm.ServiceListActivity</item>
+          <item name="priority">3</item>
+        </set>
+        <set name="plenty">
+          <item name="type">app</item>
+          <item name="package">jp.iconit.jp_barcodereader</item>
+          <item name="class">jp.iconit.jp_barcodereader.app.activity.MainActivity</item>
+          <item name="priority">4</item>
+        </set>
+        <set name="plenty">
+          <item name="type">app</item>
+          <item name="package">com.kddi.android.videopass</item>
+          <item name="class">com.kddi.android.videopass.Bootstrap</item>
+          <item name="priority">5</item>
+        </set>
+        <set name="plenty">
+          <item name="type">app</item>
+          <item name="package">jp.co.optim.oru</item>
+          <item name="class">jp.co.optim.oru.activity.MainControllerActivity</item>
+          <item name="priority">6</item>
+        </set>
+        <set name="plenty">
+          <item name="type">app</item>
+          <item name="package">com.android.mobiletv.app</item>
+          <item name="class">com.android.mobiletv.app.activity.StartPage</item>
+          <item name="priority">7</item>
+        </set>
+        <set name="plenty">
+          <item name="type">app</item>
+          <item name="package">jp.netstar.familysmile</item>
+          <item name="class">jp.netstar.familysmile.MainActivity</item>
+          <item name="priority">8</item>
+        </set>
+        <set name="plenty">
+          <item name="type">app</item>
+          <item name="package">com.bookmarkshortcut20121125195854825</item>
+          <item name="class">com.bookmarkshortcut20121125195854825.UrlLauncher</item>
+          <item name="priority">9</item>
+        </set>
+        <set name="plenty">
+          <item name="type">app</item>
+          <item name="package">com.htc.irda</item>
+          <item name="class">com.htc.irda.app.MainActivity</item>
+          <item name="priority">10</item>
+        </set>
+        <set name="plenty">
+          <item name="type">app</item>
+          <item name="package">jp.buffalo.aoss</item>
+          <item name="class">jp.buffalo.aoss.activity.AossStartActivity</item>
+          <item name="priority">11</item>
+        </set>
+        <set name="plenty">
+          <item name="type">app</item>
+          <item name="package">com.kddi.android.auoneidsetting</item>
+          <item name="class">com.kddi.android.auoneidsetting.AuoneidSetting</item>
+          <item name="priority">12</item>
+        </set>
+        <set name="plenty">
+          <item name="type">app</item>
+          <item name="package">com.kddi.market</item>
+          <item name="class">com.kddi.market.activity.ActivityMain</item>
+          <item name="priority">13</item>
+        </set>
+        <set name="plenty">
+          <item name="type">app</item>
+          <item name="package">com.kddi.android.au_wifi_connect</item>
+          <item name="class">jp.co.netvision.WifiConnect.WifiConnectManual</item>
+          <item name="priority">14</item>
+        </set>
+        <set name="plenty">
+          <item name="type">app</item>
+          <item name="package">com.kddi.cs.app001</item>
+          <item name="class">com.kddi.cs.app001.Agreement</item>
+          <item name="priority">15</item>
+        </set>
+        <set name="plenty">
+          <item name="type">app</item>
+          <item name="package">com.kddi.android.easysettingwizard</item>
+          <item name="class">com.kddi.android.easysettingwizard.ui.InformationActivity</item>
+          <item name="priority">16</item>
+        </set>
+        <set name="plenty">
+          <item name="type">app</item>
+          <item name="package">com.kddi.pass.launcher</item>
+          <item name="class">com.kddi.pass.launcher.Launch</item>
+          <item name="priority">17</item>
+        </set>
+        <set name="plenty">
+          <item name="type">app</item>
+          <item name="package">com.uievolution.gguide.android</item>
+          <item name="class">com.uievolution.gguide.android.TopPageActivity</item>
+          <item name="priority">18</item>
+        </set>
+        <set name="plenty">
+          <item name="type">app</item>
+          <item name="package">com.kddi.disasterapp</item>
+          <item name="class">com.kddi.disasterapp.activity.ActivityTopScreen</item>
+          <item name="priority">19</item>
+        </set>
+        <set name="plenty">
+          <item name="type">app</item>
+          <item name="package">com.kddi.android.email</item>
+          <item name="class">com.kddi.android.email.system.AppStarter</item>
+          <item name="priority">20</item>
+        </set>
+        <set name="plenty">
+          <item name="type">app</item>
+          <item name="package">com.facebook.katana</item>
+          <item name="class">com.facebook.katana.LoginActivity</item>
+          <item name="priority">21</item>
+        </set>
+        <set name="plenty">
+          <item name="type">app</item>
+          <item name="package">jibe.android.activity</item>
+          <item name="class">jibe.android.activity.LoginActivity</item>
+          <item name="priority">22</item>
+        </set>
+        <set name="plenty">
+          <item name="type">app</item>
+          <item name="package">jp.gree.android.pf.greeapp1753</item>
+          <item name="class">jp.gree.android.sdk.view.SplashActivity</item>
+          <item name="priority">23</item>
+        </set>
+        <set name="plenty">
+          <item name="type">app</item>
+          <item name="package">com.kddi.android.imp</item>
+          <item name="class">com.kddi.android.imp.activity.IMPLibraryGroup</item>
+          <item name="priority">24</item>
+        </set>
+        <set name="plenty">
+          <item name="type">app</item>
+          <item name="package">com.kddi.nfc.menu</item>
+          <item name="class">com.kddi.nfc.menu.NfcMenu</item>
+          <item name="priority">25</item>
+        </set>
+        <set name="plenty">
+          <item name="type">app</item>
+          <item name="package">com.android.mms</item>
+          <item name="class">com.android.mms.ui.ConversationList</item>
+          <item name="priority">26</item>
+        </set>
+      </function>
+      <function name="2_folders">
+        <set name="plenty">
+          <!--7057123c-62b3-4e84-91df-e1dfcd7e96b9-->
+          <item name="parent">Favorites</item>
+          <item name="package">com.android.browser</item>
+          <item name="class">com.android.browser.BrowserActivity</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <!--8cb5cab0-7fc5-4dff-b0af-7ad00aaee84d-->
+          <item name="parent">Favorites</item>
+          <item name="package">com.htc.music</item>
+          <item name="class">com.htc.music.browserlayer.MusicBrowserTabActivity</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <!--b72d723e-770b-4416-87d8-12c240209099-->
+          <item name="parent">Favorites</item>
+          <item name="package">com.htc.home.personalize</item>
+          <item name="class">com.htc.home.personalize.main.PersonalizeCarouselMainActivity</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <!--f9c567a8-3b7a-43dc-9d6a-5bf77c5f4be0-->
+          <item name="parent">Favorites</item>
+          <item name="package">com.facebook.katana</item>
+          <item name="class">com.facebook.katana.LoginActivity</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <!--f30bf7dc-2ec6-49b2-99f4-c0652024ab6d-->
+          <item name="parent">Favorites</item>
+          <item name="package">com.htc.album</item>
+          <item name="class">com.htc.album.AlbumMain.ActivityMainDropList</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <!--015d7b15-7f8d-4809-bba9-f2971e73e0ef-->
+          <item name="parent">Favorites</item>
+          <item name="package">com.htc.calendar</item>
+          <item name="class">com.htc.calendar.CalendarActivityMain</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <!--cc27bd3f-f11e-41e4-bc15-cb89c02d1702-->
+          <item name="title">Favorites</item>
+          <item name="screen">2</item>
+          <item name="x">3</item>
+          <item name="y">3</item>
+        </set>
+      </function>
+      <function name="default_quicklaunch">
+        <set name="plenty">
+          <item name="package">com.android.htccontacts</item>
+          <item name="class">com.android.htccontacts.DialerTabActivity</item>
+          <item name="screen">0</item>
+          <item name="x">0</item>
+          <item name="y">0</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="package">com.htc.android.mail</item>
+          <item name="class">com.htc.android.mail.MultipleActivitiesMain</item>
+          <item name="screen">0</item>
+          <item name="x">1</item>
+          <item name="y">0</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="package">com.android.mms</item>
+          <item name="class">com.android.mms.ui.ConversationList</item>
+          <item name="screen">0</item>
+          <item name="x">2</item>
+          <item name="y">0</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="package">com.android.camera</item>
+          <item name="class">com.android.camera.CameraEntry</item>
+          <item name="screen">0</item>
+          <item name="x">3</item>
+          <item name="y">0</item>
+          <item name="itemtype">0</item>
+        </set>
+      </function>
+      <function name="1_quicklaunch">
+        <set name="plenty">
+          <!--c605fb69-e4fb-4dfb-88a1-380e5a3c1f12-->
+          <item name="package">com.android.htccontacts</item>
+          <item name="class">com.android.htccontacts.DialerTabActivity</item>
+          <item name="screen">0</item>
+          <item name="x">0</item>
+          <item name="y">0</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <!--a17bd01b-f7f8-49e9-b557-5da241107a4f-->
+          <item name="package">com.android.browser</item>
+          <item name="class">com.android.browser.BrowserActivity</item>
+          <item name="screen">0</item>
+          <item name="x">1</item>
+          <item name="y">0</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <!--2451e773-4c47-41e0-83a1-d3dd961bd2bb-->
+          <item name="package">com.kddi.pass.launcher</item>
+          <item name="class">com.kddi.pass.launcher.Launch</item>
+          <item name="screen">0</item>
+          <item name="x">2</item>
+          <item name="y">0</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <!--e86535e1-9679-4644-859d-4ffdf076ec0c-->
+          <item name="package">com.android.camera</item>
+          <item name="class">com.android.camera.CameraEntry</item>
+          <item name="screen">0</item>
+          <item name="x">3</item>
+          <item name="y">0</item>
+          <item name="itemtype">0</item>
+        </set>
+      </function>
+      <function name="default_home_index">
+        <set name="single">
+          <item name="default">2</item>
+        </set>
+      </function>
+      <function name="default_pages_count">
+        <set name="single">
+          <item name="default">5</item>
+        </set>
+      </function>
+      <function name="3_wallpaper">
+        <set name="single" max="1">
+          <item type="file_name" name="image">scene_wallpaper_social.jpg</item>
+        </set>
+      </function>
+      <function name="1_wallpaper">
+        <set name="single" max="1">
+          <item type="file_name" name="image">kddi_wallpaper_white.jpg</item>
+        </set>
+      </function>
+      <function name="2_wallpaper">
+        <set name="single" max="1">
+          <item type="file_name" name="image">scene_wallpaper_htc_default.jpg</item>
+        </set>
+      </function>
+      <function name="6_wallpaper">
+        <set name="single" max="1">
+          <item type="file_name" name="image">scene_wallpaper_travel.jpg</item>
+        </set>
+      </function>
+      <function name="5_wallpaper">
+        <set name="single" max="1">
+          <item type="file_name" name="image">scene_wallpaper_play.jpg</item>
+        </set>
+      </function>
+      <function name="4_wallpaper">
+        <set name="single" max="1">
+          <item type="file_name" name="image">scene_wallpaper_work.jpg</item>
+        </set>
+      </function>
+      <function name="extra_wallpapers">
+        <set name="plenty">
+          <item name="image">kddi_wallpaper_black.jpg</item>
+          <!--%%Extra_Preveiw_image_landscape_Mode%%-->
+          <!--%%Extra_Normal_image_landscape_Mode%%-->
+        </set>
+        <set name="plenty">
+          <item name="image">kddi_wallpaper_red.jpg</item>
+          <!--%%Extra_Preveiw_image_landscape_Mode%%-->
+          <!--%%Extra_Normal_image_landscape_Mode%%-->
+        </set>
+        <set name="plenty">
+          <item name="image">kddi_wallpaper_white.jpg</item>
+          <!--%%Extra_Preveiw_image_landscape_Mode%%-->
+          <!--%%Extra_Normal_image_landscape_Mode%%-->
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="thumb">scene_wallpaper_htc_default_grid.jpg</item>
+          <item type="file_name" name="image">scene_wallpaper_htc_default.jpg</item>
+          <item type="file_name" name="preview">scene_wallpaper_htc_default_panel.jpg</item>
+          <!--%%Extra_Preveiw_image_landscape_Mode%%-->
+          <!--%%Extra_Normal_image_landscape_Mode%%-->
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="thumb">surreal_canyons_of_the_west_grid.jpg</item>
+          <item type="file_name" name="image">surreal_canyons_of_the_west.jpg</item>
+          <item type="file_name" name="preview">surreal_canyons_of_the_west_panel.jpg</item>
+          <!--%%Extra_Preveiw_image_landscape_Mode%%-->
+          <!--%%Extra_Normal_image_landscape_Mode%%-->
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="thumb">scene_wallpaper_social_grid.jpg</item>
+          <item type="file_name" name="image">scene_wallpaper_social.jpg</item>
+          <item type="file_name" name="preview">scene_wallpaper_social_panel.jpg</item>
+          <!--%%Extra_Preveiw_image_landscape_Mode%%-->
+          <!--%%Extra_Normal_image_landscape_Mode%%-->
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="thumb">fairytail_falls_grid.jpg</item>
+          <item type="file_name" name="image">fairytail_falls.jpg</item>
+          <item type="file_name" name="preview">fairytail_falls_panel.jpg</item>
+          <!--%%Extra_Preveiw_image_landscape_Mode%%-->
+          <!--%%Extra_Normal_image_landscape_Mode%%-->
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="thumb">scene_wallpaper_play_grid.jpg</item>
+          <item type="file_name" name="image">scene_wallpaper_play.jpg</item>
+          <item type="file_name" name="preview">scene_wallpaper_play_panel.jpg</item>
+          <!--%%Extra_Preveiw_image_landscape_Mode%%-->
+          <!--%%Extra_Normal_image_landscape_Mode%%-->
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="thumb">pathway_to_the_peaks_grid.jpg</item>
+          <item type="file_name" name="image">pathway_to_the_peaks.jpg</item>
+          <item type="file_name" name="preview">pathway_to_the_peaks_panel.jpg</item>
+          <!--%%Extra_Preveiw_image_landscape_Mode%%-->
+          <!--%%Extra_Normal_image_landscape_Mode%%-->
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="thumb">abraham_lake_winter_scape_grid.jpg</item>
+          <item type="file_name" name="image">abraham_lake_winter_scape.jpg</item>
+          <item type="file_name" name="preview">abraham_lake_winter_scape_panel.jpg</item>
+          <!--%%Extra_Preveiw_image_landscape_Mode%%-->
+          <!--%%Extra_Normal_image_landscape_Mode%%-->
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="thumb">shasta_lavender_grid.jpg</item>
+          <item type="file_name" name="image">shasta_lavender.jpg</item>
+          <item type="file_name" name="preview">shasta_lavender_panel.jpg</item>
+          <!--%%Extra_Preveiw_image_landscape_Mode%%-->
+          <!--%%Extra_Normal_image_landscape_Mode%%-->
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="thumb">scene_wallpaper_travel_grid.jpg</item>
+          <item type="file_name" name="image">scene_wallpaper_travel.jpg</item>
+          <item type="file_name" name="preview">scene_wallpaper_travel_panel.jpg</item>
+          <!--%%Extra_Preveiw_image_landscape_Mode%%-->
+          <!--%%Extra_Normal_image_landscape_Mode%%-->
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="thumb">nostalgia_grid.jpg</item>
+          <item type="file_name" name="image">nostalgia.jpg</item>
+          <item type="file_name" name="preview">nostalgia_panel.jpg</item>
+          <!--%%Extra_Preveiw_image_landscape_Mode%%-->
+          <!--%%Extra_Normal_image_landscape_Mode%%-->
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="thumb">bird_of_a_feather_grid.jpg</item>
+          <item type="file_name" name="image">bird_of_a_feather.jpg</item>
+          <item type="file_name" name="preview">bird_of_a_feather_panel.jpg</item>
+          <!--%%Extra_Preveiw_image_landscape_Mode%%-->
+          <!--%%Extra_Normal_image_landscape_Mode%%-->
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="thumb">aspens_in_the_snow_grid.jpg</item>
+          <item type="file_name" name="image">aspens_in_the_snow.jpg</item>
+          <item type="file_name" name="preview">aspens_in_the_snow_panel.jpg</item>
+          <!--%%Extra_Preveiw_image_landscape_Mode%%-->
+          <!--%%Extra_Normal_image_landscape_Mode%%-->
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="thumb">scene_wallpaper_work_grid.jpg</item>
+          <item type="file_name" name="image">scene_wallpaper_work.jpg</item>
+          <item type="file_name" name="preview">scene_wallpaper_work_panel.jpg</item>
+          <!--%%Extra_Preveiw_image_landscape_Mode%%-->
+          <!--%%Extra_Normal_image_landscape_Mode%%-->
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="thumb">graphite_grid.jpg</item>
+          <item type="file_name" name="image">graphite.jpg</item>
+          <item type="file_name" name="preview">graphite_panel.jpg</item>
+          <!--%%Extra_Preveiw_image_landscape_Mode%%-->
+          <!--%%Extra_Normal_image_landscape_Mode%%-->
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="thumb">bonsai_grid.jpg</item>
+          <item type="file_name" name="image">bonsai.jpg</item>
+          <item type="file_name" name="preview">bonsai_panel.jpg</item>
+          <!--%%Extra_Preveiw_image_landscape_Mode%%-->
+          <!--%%Extra_Normal_image_landscape_Mode%%-->
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="thumb">concrete_grid.jpg</item>
+          <item type="file_name" name="image">concrete.jpg</item>
+          <item type="file_name" name="preview">concrete_panel.jpg</item>
+          <!--%%Extra_Preveiw_image_landscape_Mode%%-->
+          <!--%%Extra_Normal_image_landscape_Mode%%-->
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="thumb">wallpaper_03_grid.jpg</item>
+          <item type="file_name" name="image">wallpaper_03.jpg</item>
+          <item type="file_name" name="preview">wallpaper_03_panel.jpg</item>
+          <!--%%Extra_Preveiw_image_landscape_Mode%%-->
+          <!--%%Extra_Normal_image_landscape_Mode%%-->
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="thumb">wallpaper_04_grid.jpg</item>
+          <item type="file_name" name="image">wallpaper_04.jpg</item>
+          <item type="file_name" name="preview">wallpaper_04_panel.jpg</item>
+          <!--%%Extra_Preveiw_image_landscape_Mode%%-->
+          <!--%%Extra_Normal_image_landscape_Mode%%-->
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="thumb">aluminum_grid.jpg</item>
+          <item type="file_name" name="image">aluminum.jpg</item>
+          <item type="file_name" name="preview">aluminum_panel.jpg</item>
+          <!--%%Extra_Preveiw_image_landscape_Mode%%-->
+          <!--%%Extra_Normal_image_landscape_Mode%%-->
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="thumb">matte_grid.jpg</item>
+          <item type="file_name" name="image">matte.jpg</item>
+          <item type="file_name" name="preview">matte_panel.jpg</item>
+          <!--%%Extra_Preveiw_image_landscape_Mode%%-->
+          <!--%%Extra_Normal_image_landscape_Mode%%-->
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="thumb">beats_grid.jpg</item>
+          <item type="file_name" name="image">beats.jpg</item>
+          <item type="file_name" name="preview">beats_panel.jpg</item>
+          <!--%%Extra_Preveiw_image_landscape_Mode%%-->
+          <!--%%Extra_Normal_image_landscape_Mode%%-->
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="thumb">wallpaper_02_grid.jpg</item>
+          <item type="file_name" name="image">wallpaper_02.jpg</item>
+          <item type="file_name" name="preview">wallpaper_02_panel.jpg</item>
+          <!--%%Extra_Preveiw_image_landscape_Mode%%-->
+          <!--%%Extra_Normal_image_landscape_Mode%%-->
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="thumb">steel_grid.jpg</item>
+          <item type="file_name" name="image">steel.jpg</item>
+          <item type="file_name" name="preview">steel_panel.jpg</item>
+          <!--%%Extra_Preveiw_image_landscape_Mode%%-->
+          <!--%%Extra_Normal_image_landscape_Mode%%-->
+        </set>
+      </function>
+      <function name="1_shortcuts">
+        <set name="plenty">
+          <!--73b61b58-58ec-488c-8f98-726964a7fc6a-->
+          <item name="package">com.htc.irda</item>
+          <item name="class">com.htc.irda.app.MainActivity</item>
+          <item name="screen">1</item>
+          <item name="x">2</item>
+          <item name="y">2</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <!--8b0ddcd9-bdf6-4735-b693-9eaa3fc6e0a1-->
+          <item name="package">com.kddi.disasterapp</item>
+          <item name="class">com.kddi.disasterapp.activity.ActivityTopScreen</item>
+          <item name="screen">4</item>
+          <item name="x">0</item>
+          <item name="y">3</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <!--7c025260-ea6b-4a6d-bd6e-24d6c5fbe73e-->
+          <item name="package">com.kddi.cs.app001</item>
+          <item name="class">com.kddi.cs.app001.Agreement</item>
+          <item name="screen">4</item>
+          <item name="x">1</item>
+          <item name="y">3</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <!--3281000e-5691-429d-8b09-d841ab5bb834-->
+          <item name="package">com.facebook.katana</item>
+          <item name="class">com.facebook.katana.LoginActivity</item>
+          <item name="screen">4</item>
+          <item name="x">2</item>
+          <item name="y">3</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <!--2a49607b-d56c-4635-8399-fbc9a5505c79-->
+          <item name="package">jp.gree.android.pf.greeapp1753</item>
+          <item name="class">jp.gree.android.sdk.view.SplashActivity</item>
+          <item name="screen">4</item>
+          <item name="x">3</item>
+          <item name="y">3</item>
+          <item name="itemtype">0</item>
+        </set>
+      </function>
+      <function name="2_shortcuts">
+        <set name="plenty">
+          <!--16be5567-7188-4ccc-b714-bc2db9407421-->
+          <item name="package">com.android.vending</item>
+          <item name="class">com.android.vending.AssetBrowserActivity</item>
+          <item name="screen">2</item>
+          <item name="x">0</item>
+          <item name="y">3</item>
+          <item name="itemtype">0</item>
+        </set>
+      </function>
+      <function name="5_shortcuts">
+        <set name="plenty">
+          <!--257bd765-74bd-4ca8-ae50-33280ca735ae-->
+          <item name="package">com.google.android.apps.maps</item>
+          <item name="class">com.google.android.maps.MapsActivity</item>
+          <item name="screen">2</item>
+          <item name="x">0</item>
+          <item name="y">3</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <!--6cdade19-c905-4cc9-b051-234b3a297866-->
+          <item name="package">com.android.browser</item>
+          <item name="class">com.android.browser.BrowserActivity</item>
+          <item name="screen">2</item>
+          <item name="x">3</item>
+          <item name="y">3</item>
+          <item name="itemtype">0</item>
+        </set>
+      </function>
+      <function name="4_shortcuts">
+        <set name="plenty">
+          <!--7b302841-b1ed-4ef3-8461-eb88cd31e1ee-->
+          <item name="package">com.android.htccontacts</item>
+          <item name="class">com.android.htccontacts.BrowseLayerCarouselActivity</item>
+          <item name="screen">2</item>
+          <item name="x">0</item>
+          <item name="y">3</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <!--288ccc1e-404e-4e49-a291-f5f79b6ea4a3-->
+          <item name="package">com.android.browser</item>
+          <item name="class">com.android.browser.BrowserActivity</item>
+          <item name="screen">2</item>
+          <item name="x">3</item>
+          <item name="y">3</item>
+          <item name="itemtype">0</item>
+        </set>
+      </function>
+      <function name="6_shortcuts">
+        <set name="plenty">
+          <!--17ec35e8-be4a-423f-bbde-efa83139116a-->
+          <item name="package">com.google.android.apps.maps</item>
+          <item name="class">com.google.android.maps.MapsActivity</item>
+          <item name="screen">2</item>
+          <item name="x">0</item>
+          <item name="y">3</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <!--14be2500-3800-42c5-9d71-f0acc0109d49-->
+          <item name="package">com.android.browser</item>
+          <item name="class">com.android.browser.BrowserActivity</item>
+          <item name="screen">2</item>
+          <item name="x">3</item>
+          <item name="y">3</item>
+          <item name="itemtype">0</item>
+        </set>
+      </function>
+      <function name="scene_list">
+        <set name="plenty" max="1">
+          <item name="scenename">au</item>
+          <item name="scene_preview_large">kddi_scenes_picker_white.jpg</item>
+          <item name="scene_preview_large_land">kddi_scenes_picker_white_land.jpg</item>
+          <item name="pages_count">7</item>
+          <item name="home_index">3</item>
+        </set>
+        <set name="plenty" max="1">
+          <item name="scenename">HTC</item>
+          <item name="scene_preview_large">scenes_picker_01_nowatch.jpg</item>
+          <item name="scene_preview_large_land">scenes_picker_01_nowatch_land.jpg</item>
+        </set>
+        <set name="plenty" max="1">
+          <item name="scenename">Social</item>
+          <item name="scene_preview_large">scenes_picker_02.jpg</item>
+          <item name="scene_preview_large_land">scenes_picker_02_land.jpg</item>
+        </set>
+        <set name="plenty" max="1">
+          <item name="scenename">Work</item>
+          <item name="scene_preview_large">scenes_picker_03_nolocation.jpg</item>
+          <item name="scene_preview_large_land">scenes_picker_03_nolocation_land.jpg</item>
+        </set>
+        <set name="plenty" max="1">
+          <item name="scenename">Play</item>
+          <item name="scene_preview_large">scenes_picker_04_nowatch.jpg</item>
+          <item name="scene_preview_large_land">scenes_picker_04_nowatch_land.jpg</item>
+        </set>
+        <set name="plenty" max="1">
+          <item name="scenename">Travel</item>
+          <item name="scene_preview_large">scenes_picker_05_nolocation.jpg</item>
+          <item name="scene_preview_large_land">scenes_picker_05_nolocation_land.jpg</item>
+        </set>
+      </function>
+    </module>
+    <module name="MessageConfig">
+      <function name="setting">
+        <set name="single">
+          <item name="SMS_Delivery_Report">true</item>
+          <item name="MMS_Received_Notify">true</item>
+          <item name="MMS_Play_Received_Notify">true</item>
+          <item name="MMS_Received_Viberation">true</item>
+          <item name="MMS_Sent_Notify">false</item>
+          <item name="MMS_Fail_Notify">true</item>
+          <item name="MMS_Play_Notify">true</item>
+          <item name="MMS_Notify_Sound">Default Ringtone</item>
+          <item name="MMS_Viberation">true</item>
+          <item name="SMS_Max_Recipient_Number">10</item>
+          <item name="SMS_Max_Concatenated_Number">1</item>
+          <item name="RECIPT_Show_Sent_Msg_History">false</item>
+          <item name="RECIPT_Show_Call_History">false</item>
+          <item name="MSG_Preview_Line">2</item>
+          <item name="STORAGE_Del_Old_Msg">false</item>
+          <item name="STORAGE_Text_Msg_Limit">140</item>
+          <item name="SMS_Wap_Push_Support">false</item>
+          <item name="SMS_Empty_Draft_Support">false</item>
+          <item name="SMS_To_Email_Support">false</item>
+          <item name="SMS_Class_Zero_Save_Support">true</item>
+          <item name="SMS_Concatenated_Email_SMS">false</item>
+          <item name="SMS_Subject_Support">false</item>
+          <item name="SMS_SMSC_Editable">true</item>
+          <item name="SMS_Empty_SMS_Support">false</item>
+          <item name="SMS_Use_Device_Time">false</item>
+          <item name="SMS_Characters">true</item>
+          <item name="MSG_General_CMAS_Support">false</item>
+          <item name="MSG_Use_Signature">false</item>
+          <item name="Display_message_on_screen">success_and_failure</item>
+          <item name="RECIPT_Input_Type_Number">false</item>
+          <item name="SMS_Nli_Header_Support">true</item>
+          <item name="SMS_Length_Exceed_Dialog_Support">true</item>
+        </set>
+      </function>
+      <function name="Message_Signature">
+        <set name="plenty">
+          <item name="Locale">en_JP</item>
+          <item name="Signature_Text">Sent from HTC J butterfly</item>
+        </set>
+        <set name="plenty">
+          <item name="Locale">ja_JP</item>
+          <item name="Signature_Text">HTC J butterfly より送信</item>
+        </set>
+        <set name="plenty">
+          <item name="Locale">en_US</item>
+          <item name="Signature_Text">Sent from HTC J butterfly</item>
+        </set>
+      </function>
+    </module>
+    <module name="Browser">
+      <function name="bookmark">
+        <set name="plenty">
+          <!--%%File%%-->
+          <item name="title">auポータル</item>
+          <item name="url">http://auone.jp/</item>
+        </set>
+        <set name="plenty">
+          <!--%%File%%-->
+          <item name="title">auスマートパス</item>
+          <item name="url">http://win.auone.jp/r/pass/sp/pass_r7207000002.php</item>
+        </set>
+        <set name="plenty">
+          <!--%%File%%-->
+          <item name="title">au +1 collection(au Online Shop）</item>
+          <item name="url">http://win.auone.jp/r/pass/sp/pass_r7207000052.php</item>
+        </set>
+        <set name="plenty">
+          <!--%%File%%-->
+          <item name="title">Photo Album（au cloud）</item>
+          <item name="url">http://win.auone.jp/r/pass/sp/pass_r7207000003.php</item>
+        </set>
+        <set name="plenty">
+          <!--%%File%%-->
+          <item name="title">HTC</item>
+          <item name="url">http://www.htc.com/jp</item>
+        </set>
+      </function>
+      <function name="homepage">
+        <set name="single" max="15">
+          <item name="url">http://auone.jp</item>
+        </set>
+      </function>
+    </module>
+    <module name="Mail">
+      <function name="provider">
+        <set name="plenty" max="10">
+          <!--%%File%%-->
+          <item name="provider">Microsoft Exchange ActiveSync</item>
+          <item name="inprotocol">EAS</item>
+          <item name="description">exchangeAccountDesc</item>
+          <item name="resid">icon_launcher_active_sync</item>
+        </set>
+        <set name="plenty" max="10">
+          <!--%%File%%-->
+          <item name="provider">Gmail</item>
+          <item name="domain">gmail.com</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="description">googleAccountDesc</item>
+          <item name="resid">icon_launcher_gmail</item>
+        </set>
+        <set name="plenty" max="10">
+          <!--%%File%%-->
+          <item name="provider">Yahoo</item>
+          <item name="domain">yahoo.com</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="description">yahooAccountDesc</item>
+          <item name="resid">icon_launcher_yahoo</item>
+        </set>
+        <set name="plenty" max="10">
+          <!--%%File%%-->
+          <item name="provider">Hotmail</item>
+          <item name="domain">hotmail.com</item>
+          <item name="inprotocol">EAS</item>
+          <item name="description">hotmailAccountDesc</item>
+          <item name="resid">icon_launcher_hotmail</item>
+        </set>
+        <set name="plenty" max="10">
+          <!--%%File%%-->
+          <item name="provider">Other</item>
+          <item name="description">otherAccountDesc</item>
+          <item name="resid">icon_launcher_mail</item>
+        </set>
+      </function>
+      <function name="provider_setting">
+        <set name="plenty" max="10">
+          <item name="provider">Yahoo Japan</item>
+          <item name="domain">yahoo.co.jp</item>
+          <item name="inserver">imap.mail.yahoo.co.jp</item>
+          <item name="inport">993</item>
+          <item name="outserver">smtp.mail.yahoo.co.jp</item>
+          <item name="outport">465</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">1</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">Yahoo</item>
+        </set>
+      </function>
+      <function name="mail_common_setting">
+        <set name="plenty" max="20">
+          <item name="useSignature">1</item>
+          <item name="emailnotifications">1</item>
+          <item name="sizelimit">4</item>
+          <item name="poll_frequency_number">10</item>
+          <item name="fetchMailType">1</item>
+          <item name="fetchMailDays">1</item>
+          <item name="fetchMailNum">0</item>
+          <item name="deleteFromServer">0</item>
+          <item name="alwaysBccMyself">0</item>
+          <item name="askBeforeDelete">0</item>
+          <item name="enableSDsave">1</item>
+          <item name="vibrate">0</item>
+          <item name="sound">0</item>
+          <item name="replyWithText">1</item>
+          <item name="refreshMailWhenOpenFolder">1</item>
+          <item name="syncSchedulePeakOn">10</item>
+          <item name="syncSchedulePeakOff">10</item>
+          <item name="peakDays">31</item>
+          <item name="peakTimeStart">480</item>
+          <item name="peakTimeEnd">1200</item>
+          <item name="downloadMessageWhenScroll">1</item>
+          <item name="syncWithServer">0</item>
+          <item name="previewLinesNumber">2</item>
+          <item name="threadedMail">1</item>
+          <item name="smartSyncPeriod">3,4,5,6,7</item>
+          <item name="fontSize">2</item>
+        </set>
+      </function>
+      <function name="eas_sync_option">
+        <set name="plenty" max="10">
+          <item name="sync_schedule">10</item>
+          <item name="conflict_resolving">1</item>
+          <item name="mail_filter_type">2</item>
+          <item name="mail_truncation_size">4</item>
+          <item name="mail_truncation_mime_size">5</item>
+          <item name="mail_body_type">2</item>
+          <item name="mail_attachment_opt">0</item>
+          <item name="cal_filter_type">4</item>
+          <item name="cal_body_format">2</item>
+          <item name="use_ssl">1</item>
+          <item name="syncSchedulePeakOn">10</item>
+          <item name="syncSchedulePeakOff">10</item>
+          <item name="peakDays">31</item>
+          <item name="peakTimeStart">480</item>
+          <item name="peakTimeEnd">1200</item>
+          <item name="smartSyncPeriod">4,5,6,7,8</item>
+        </set>
+      </function>
+      <function name="mail_signature_localization">
+        <set name="plenty" max="10">
+          <item name="locale">en_JP</item>
+          <item name="signature">Sent from HTC J butterfly</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="locale">ja_JP</item>
+          <item name="signature">HTC J butterfly より送信</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="locale">en_US</item>
+          <item name="signature">Sent from HTC J butterfly</item>
+        </set>
+      </function>
+    </module>
+    <module name="weather_provider">
+      <function name="settings">
+        <set name="single">
+          <item name="temprature_unit">c</item>
+        </set>
+      </function>
+      <function name="default_city">
+        <set name="plenty" max="15">
+          <item name="app">com.htc.elroy.Weather</item>
+          <item name="type">1</item>
+          <item name="name">Tokyo</item>
+          <item name="country">Japan</item>
+          <item name="code">ASI|JP|JA041|TOKYO</item>
+          <item name="timezone">-540</item>
+          <item name="timezoneid">Asia/Tokyo</item>
+        </set>
+        <set name="plenty" max="15">
+          <item name="app">com.htc.elroy.Weather</item>
+          <item name="type">1</item>
+          <item name="name">Osaka</item>
+          <item name="country">Japan</item>
+          <item name="code">ASI|JP|JA009|OSAKA</item>
+          <item name="timezone">-540</item>
+          <item name="timezoneid">Asia/Tokyo</item>
+        </set>
+        <set name="plenty" max="15">
+          <item name="app">com.htc.android.worldclock</item>
+          <item name="type">1</item>
+          <item name="name">Tokyo</item>
+          <item name="country">Japan</item>
+          <item name="code">ASI|JP|JA041|TOKYO</item>
+          <item name="timezone">-540</item>
+          <item name="timezoneid">Asia/Tokyo</item>
+        </set>
+      </function>
+    </module>
+    <module name="weather_sync_provider">
+      <function name="settings">
+        <set name="single">
+          <item name="temprature_unit">c</item>
+          <item name="update_interval">10800000</item>
+        </set>
+      </function>
+    </module>
+    <module name="Stocks">
+      <function name="settings">
+        <set name="single">
+          <item name="raisecolor">Green</item>
+          <item name="interval">240</item>
+        </set>
+      </function>
+      <function name="default_stocks">
+        <set name="plenty" max="30">
+          <item name="symbol">2498.TW</item>
+        </set>
+        <set name="plenty" max="30">
+          <item name="symbol">^DJI</item>
+        </set>
+        <set name="plenty" max="30">
+          <item name="symbol">^IXIC</item>
+        </set>
+        <set name="plenty" max="30">
+          <item name="symbol">^FTSE</item>
+        </set>
+        <set name="plenty" max="30">
+          <item name="symbol">GOOG</item>
+        </set>
+        <set name="plenty" max="30">
+          <item name="symbol">AMZN</item>
+        </set>
+        <set name="plenty" max="30">
+          <item name="symbol">YHOO</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="ulog_policy">
+    <module name="com.htc.reportagent">
+      <function name="common">
+        <set name="single">
+          <item name="retry">1</item>
+        </set>
+      </function>
+      <function name="policy">
+        <set name="single">
+          <item name="freq">168</item>
+        </set>
+      </function>
+      <function name="log">
+        <set name="single">
+          <item name="cache">2</item>
+        </set>
+      </function>
+      <function name="budget">
+        <set name="single">
+          <item name="period">720</item>
+          <item name="mobile_calc_unit">1</item>
+          <item name="mobile_UL">50</item>
+          <item name="mobile_DL">50</item>
+          <item name="mobile_total">100</item>
+          <item name="other_calc_unit">1</item>
+          <item name="other_UL">-1</item>
+          <item name="other_DL">-1</item>
+          <item name="other_total">-1</item>
+          <item name="all_calc_unit">1</item>
+          <item name="all_UL">-1</item>
+          <item name="all_DL">-1</item>
+          <item name="all_total">-1</item>
+        </set>
+      </function>
+    </module>
+    <module name="com.htc.feedback">
+      <function name="HTC_APP_CRASH">
+        <set name="single">
+          <item name="enable">1</item>
+        </set>
+      </function>
+      <function name="SYSTEM_CRASH">
+        <set name="single">
+          <item name="enable">1</item>
+        </set>
+      </function>
+      <function name="HTC_APP_ANR">
+        <set name="single">
+          <item name="enable">1</item>
+        </set>
+      </function>
+      <function name="LASTKMSG">
+        <set name="single">
+          <item name="enable">1</item>
+        </set>
+      </function>
+      <function name="extra">
+        <set name="single">
+          <item name="bugreport">0</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="force_change">
+    <module name="Browser">
+      <!-- Web Browser UA string -->
+      <function name="ua_string">
+        <set name="single">
+          <item name="value">HTL21</item>
+        </set>
+      </function>
+      <function name="ua_string_mobile">
+        <set name="single" />
+      </function>
+      <function name="ua_string_desktop">
+        <set name="single" />
+      </function>
+      <function name="ua_string_short_desktop">
+        <set name="single" />
+      </function>
+      <!-- UA profile URL -->
+      <function name="ua_profile">
+        <set name="single">
+          <item name="value">http://www.htcmms.com.tw/Android/KDDI/HTL21/ua-profile.xml</item>
+        </set>
+      </function>
+      <!-- Enable gif animation -->
+      <function name="enable_gif_anim">
+        <set name="single" />
+      </function>
+      <!-- Mobile_view -->
+      <function name="mobile_view">
+        <set name="single">
+          <item name="value">true</item>
+        </set>
+      </function>
+      <!-- Default text encoding -->
+      <function name="default_text_encoding">
+        <set name="single">
+          <item name="value">SHIFT_JIS</item>
+        </set>
+      </function>
+      <!-- Location_Setting -->
+      <function name="geolocation">
+        <set name="single" />
+      </function>
+      <!-- Open pages in overview -->
+      <function name="overview">
+        <set name="single" />
+      </function>
+      <!-- Max tabs count -->
+      <function name="max_tabs">
+        <set name="single" />
+      </function>
+      <!-- full screen mode (show/hide status bar) -->
+      <function name="always_show_statusbar">
+        <set name="single" />
+      </function>
+      <!-- Bookmark View Setting -->
+      <function name="bookmark_view_mode">
+        <set name="single" />
+      </function>
+      <!-- Most Visit Bookmark View Setting -->
+      <function name="mostvisited_view_mode">
+        <set name="single" />
+      </function>
+      <!-- Default Search Engine -->
+      <function name="search_engine">
+        <set name="single" />
+      </function>
+      <!-- download_dialog -->
+      <function name="download">
+        <set name="single" />
+      </function>
+      <!-- normal_layout -->
+      <function name="normal_layout">
+        <set name="single" />
+      </function>
+      <!-- autofit_pages -->
+      <function name="autofit_pages">
+        <set name="single">
+          <item name="value">true</item>
+        </set>
+      </function>
+      <!-- mobile_proxy_host -->
+      <function name="mobile_proxy_host">
+        <set name="single" />
+      </function>
+      <!-- mobile_proxy_port -->
+      <function name="mobile_proxy_port">
+        <set name="single" />
+      </function>
+      <!-- Bookmark enable_plugin-->
+      <function name="enable_plugin">
+        <set name="single" />
+      </function>
+    </module>
+    <!-- MMS UA string -->
+    <module name="MMS">
+      <function name="ua_string">
+        <set name="single">
+          <item name="value">HTL21</item>
+        </set>
+      </function>
+    </module>
+    <!--  J2ME UA string  -->
+    <module name="J2ME">
+      <function name="ua_string">
+        <set name="single" />
+      </function>
+    </module>
+  </category>
+</customization_form>
